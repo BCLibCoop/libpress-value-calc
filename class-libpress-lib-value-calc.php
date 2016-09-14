@@ -49,13 +49,6 @@ if (!class_exists('LibValueCalc')):
             //default options if not already set
             add_option($this->slug . 'options', $this->fieldset, '', 'no'); //Store the entire initial object, no autoload
 
-            //Log form object
-            $form_id = '3';
-            Kint::enabled(Kint::MODE_WHITESPACE);
-            $kintOutput = d($form = GFAPI::get_form($form_id));
-            $log_file = WP_CONTENT_DIR . '/kintout.log';
-            file_put_contents($log_file, $kintOutput);
-
 		}
 
         /**
