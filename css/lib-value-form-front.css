@@ -1,4 +1,3 @@
-
 .threequarter.main .gform_fields li.gf_middle_third.gfield_price {
     margin-bottom: 0 !important;
     margin-top: 2em;
@@ -8,15 +7,24 @@
     margin-right: 4em;
 }
 
+.threequarter.main .gform_fields li.gf_left_third.gfield_html + li.gf_middle_third {
+    width: 35%;
+    margin-top: 0px;
+}
+
+.threequarter.main .gform_fields li.gf_right_third.gfield_calculation {
+    margin-top: 1.25em;
+}
+
 /*.gform_wrapper .top_label li#field_3_30.gfield.gf_left_third,
 .gform_wrapper .top_label li#field_3_42.gfield.gf_left_third,
 .gform_wrapper .top_label li#field_3_46.gfield.gf_left_third {
     width:42%;
 }*/
 
-.threequarter.main .gform_wrapper .top_label li.gfield.gsection.field_sublabel_below.field_description_below + li.gsection {
-    margin: 0 !important;
-    padding: 0 !important;
+li.gfield.gsection.tighter-section {
+    padding: 0px;
+    margin-top: 0px;
 }
 
 input#gform_submit_button_3.gform_button.button {
