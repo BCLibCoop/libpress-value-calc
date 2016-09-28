@@ -1,18 +1,30 @@
-.threequarter.main .gform_fields li.gf_middle_third.gfield_price {
+.gform-wrapper-value-calc .gform_fields li.gf_middle_third.gfield_price {
     margin-bottom: 0 !important;
     margin-top: 2em;
 }
 
-.threequarter.main .gform_fields li.gf_left_third.field_sublabel_below {
+.gform-wrapper-value-calc .gform_fields li.gf_left_third.field_sublabel_below {
     margin-right: 4em;
 }
 
-.threequarter.main .gform_fields li.gf_left_third.gfield_html + li.gf_middle_third {
+.gform-wrapper-value-calc .gform_fields li.gf_left_third.gfield_html + li.gf_middle_third {
     width: 35%;
     margin-top: 0px;
 }
 
-.threequarter.main .gform_fields li.gf_right_third.gfield_calculation {
+.gform-wrapper-value-calc .gform_fields label.gfield_label {
+    white-space: nowrap;
+}
+
+.gform-wrapper-value-calc .gfield.total-used label.gfield_label {
+    white-space: normal;
+}
+
+.gform-wrapper-value-calc .gfield.total-paid {
+    margin-top: 0;
+}
+
+.gform-wrapper-value-calc .gform_fields li.gf_right_third.gfield_calculation {
     margin-top: 1.25em;
 }
 
@@ -22,11 +34,11 @@
     width:42%;
 }*/
 
-li.gfield.gsection.tighter-section {
+.gform-wrapper-value-calc li.gfield.gsection.tighter-section {
     padding: 0px;
     margin-top: 0px;
 }
 
-input#gform_submit_button_3.gform_button.button {
+.gform-wrapper-value-calc .gform_footer input.gform_button.button {
     display: none;
 }
