@@ -1,10 +1,10 @@
 .gform-value-calc_wrapper .gform_fields li.gf_middle_third.gfield_price {
     margin-bottom: 0 !important;
-    /* margin-top: 2em; */
 }
 
 .gform-value-calc_wrapper .gform_fields li.gf_left_third.field_sublabel_below {
-    margin-right: 4em;
+    margin-right: 4em !important;
+    margin-bottom: 0 !important;
 }
 
 .gform-value-calc_wrapper .gform_fields li.gf_left_third.gfield_html + li.gf_middle_third {
@@ -31,12 +31,6 @@
 .gform-value-calc_wrapper .gform_fields li.gf_right_third.gfield_calculation {
     margin-top: 1.25em;
 }
-
-/*.gform_wrapper .top_label li#field_3_30.gfield.gf_left_third,
-.gform_wrapper .top_label li#field_3_42.gfield.gf_left_third,
-.gform_wrapper .top_label li#field_3_46.gfield.gf_left_third {
-    width:42%;
-}*/
 
 .gform-value-calc_wrapper li.gfield.gsection.tighter-section {
     padding: 0px;
