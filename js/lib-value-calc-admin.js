@@ -1,11 +1,3 @@
-/**
- * Plugin Name: Co-op Media Link
- * Description: Options to allow libraries to customize their digital media link in searchform. Installed as MUST USE.
- * Author: Jonathan Schatz, BC Libraries Cooperative
- * Author URI: https://bc.libraries.coop
- * Version: 0.1.0
- **/
-
 ; (function ($, window) {
 
   var self;

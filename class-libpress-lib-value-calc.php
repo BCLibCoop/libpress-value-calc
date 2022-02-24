@@ -16,7 +16,7 @@
  * @wordpress-plugin
  * Plugin Name:       LibPress Library Value Calculator
  * Description:       Options and GravityForm for library value calculators
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.0
  * Author:            BC Libraries Cooperative
@@ -97,7 +97,8 @@ class LibValueCalc
         wp_enqueue_script(
             $this->slug . 'calc-admin-js',
             plugins_url('/js/' . $this->slug . 'calc-admin.js', __FILE__),
-            ['jquery']
+            ['jquery'],
+            get_plugin_data(__FILE__, false, false)['Version']
         );
     }
 
@@ -105,7 +106,9 @@ class LibValueCalc
     {
         wp_enqueue_style(
             $this->slug . 'form-front-css',
-            plugins_url('/css/' . $this->slug . 'form-front.css', __FILE__)
+            plugins_url('/css/' . $this->slug . 'form-front.css', __FILE__),
+            [],
+            get_plugin_data(__FILE__, false, false)['Version']
         );
     }
 
